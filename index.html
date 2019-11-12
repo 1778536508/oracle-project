@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>甲骨文输出</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="screen-orientation" content="portrait"><!-- uc强制竖屏 -->
+    <meta name="x5-orientation" content="portrait"><!-- QQ强制竖屏 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <link rel="stylesheet" href="css/dedault.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/flexible.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/delighters.js"></script>
+</head>
+<body>
+    <div class="loading-box">
+        <i><img src="./image/loading/back.jpg" alt=""></i>
+        <b><img src="./image/loading/loading.gif" alt=""></b>
+        <p>loading...</p>
+        <p id="loadingNum">0%</p>
+        <div id="loadingBtn"><img src="./image/loading/btn.png" alt=""></div>
+    </div>
+    <script>
+        // 随机数
+        function random(min, max) {
+            return Math.floor(Math.random() * (max - min)) + min;
+        }
+        $('#loadingNum').html(random(0, 30) + '%');
+    </script>
+    <div class="box">
+        <ul id="box-pics" class="box-pics">
+            <li data-delighter class="screen1">
+                <b class="screen1-y-max"><img src="./image/icon/y-max.png" alt=""></b>
+                <b class="screen1-y-mmin"><img src="./image/icon/y-max.png" alt=""></b>
+                <div class="wenzi">
+                    <em><img src="./image/icon/j.png" alt=""></em>
+                    <em><img src="./image/icon/g.png" alt=""></em>
+                    <em><img src="./image/icon/w.png" alt=""></em>
+                    <em><img src="./image/icon/i.png" alt=""></em>
+                    <em><img src="./image/icon/y.png" alt=""></em>
+                </div>
+                <i><img src="./image/back_img/1.jpg" alt=""></i>
+            </li>
+            <li data-delighter>
+                <div class="suipian">
+                    <div>
+                        <em><img src="./image/icon/i-1.png" alt=""></em>
+                        <em><img src="./image/icon/i-2.png" alt=""></em>
+                        <em><img src="./image/icon/i-3.png" alt=""></em>
+                    </div>
+                </div>
+                <i><img src="./image/back_img/2.jpg" alt=""></i>
+            </li>
+            <li data-delighter><i><img src="./image/back_img/3.jpg" alt=""></i></li>
+            <li data-delighter><i><img src="./image/back_img/4.jpg" alt=""></i></li>
+            <li data-delighter><i><img src="./image/back_img/5.jpg" alt=""></i></li>
+
+            <li data-delighter><i><img src="./image/back_img/6.jpg" alt=""></i></li>
+            <li data-delighter><i><img src="./image/back_img/7.jpg" alt=""></i></li>
+            <li data-delighter><i><img src="./image/back_img/8.jpg" alt=""></i></li>
+            <li data-delighter><i><img src="./image/back_img/9.jpg" alt=""></i></li>
+            <li data-delighter><i><img src="./image/back_img/10.jpg" alt=""></i></li>
+
+            <li data-delighter><i><img src="./image/back_img/11.jpg" alt=""></i></li>
+            <li data-delighter><i><img src="./image/back_img/12.jpg" alt=""></i></li>
+            <li data-delighter><i><img src="./image/back_img/13.jpg" alt=""></i></li>
+            <li data-delighter><i><img src="./image/back_img/14.jpg" alt=""></i></li>
+            <li data-delighter><i><img src="./image/back_img/15.jpg" alt=""></i></li>
+
+            <li data-delighter><i><img src="./image/back_img/16.jpg" alt=""></i></li>
+            <li data-delighter><i><img src="./image/back_img/17.jpg" alt=""></i></li>
+            <li data-delighter><i><img src="./image/back_img/18.jpg" alt=""></i></li>
+            <li data-delighter><i><img src="./image/back_img/19.jpg" alt=""></i></li>
+            <li data-delighter><i><img src="./image/back_img/20.jpg" alt=""></i></li>
+
+            <li data-delighter><i><img src="./image/back_img/21.jpg" alt=""></i></li>
+            <li data-delighter><i><img src="./image/back_img/22.jpg" alt=""></i></li>
+            <li data-delighter><i><img src="./image/back_img/23.jpg" alt=""></i></li>
+            <li data-delighter><i><img src="./image/back_img/24.jpg" alt=""></i></li>
+            <li data-delighter><i><img src="./image/back_img/25.jpg" alt=""></i></li>
+
+            <li data-delighter><i><img src="./image/back_img/26.jpg" alt=""></i></li>
+            <li data-delighter><i><img src="./image/back_img/28.jpg" alt=""></i></li>
+        </ul>
+    </div>
+    <div class="music-box active">
+        <img src="./image/icon/m-k.gif" alt="">
+        <audio
+                id="musicAudio"
+                controls="controls"
+                autoplay="autoplay"
+                loop="loop"
+        >
+            <source src="./image/audio/music3e.mp3"/>
+        </audio>
+    </div>
+</body>
+</html>
+<script>
+    setTimeout(function () {
+        // 随机数
+        function random(min, max) {
+            return Math.floor(Math.random() * (max - min)) + min;
+        }
+        $('#loadingNum').html(random(30, 60) + '%');
+    },500)
+    window.onload = function () {
+        var mo=function(e){e.preventDefault();};
+        /***滑动限制***/
+        function stop(){
+            document.body.style.overflow='hidden';
+            document.addEventListener("touchmove",mo,{passive:false});//禁止页面滑动
+        }
+        /***取消滑动限制***/
+        function move(){
+            document.body.style.overflow='';//出现滚动条
+            document.removeEventListener("touchmove",mo,{passive:false});
+        }
+
+
+        // 音频播放
+        function musicPlay() {
+            document.getElementsByTagName('audio')[0].play();
+            document.addEventListener("WeixinJSBridgeReady", function () {
+                document.getElementsByTagName('audio')[0].play();
+                document.getElementsByTagName('audio')[0].play();
+            }, false);
+        }
+
+        let state = true;
+        $('.music-box').click(function() {
+            if(state) {
+                document.getElementsByTagName('audio')[0].pause();
+                $(this).removeClass('active')
+                $(this).children('img').attr('src', './image/icon/m-g.png')
+            } else {
+                document.getElementsByTagName('audio')[0].play();
+                $(this).addClass('active')
+                $(this).children('img').attr('src', './image/icon/m-k.gif')
+            }
+            state = !state
+        })
+
+        //loading
+        function fnLoading() {
+            var num = Number($('#loadingNum').html().split('%')[0]);
+            setTimeout(function () {
+                var IntervalName = setInterval(function () {
+                    num++;
+                    if(num >= 100) {
+                        num = 100
+                    }
+                    $('#loadingNum').html(num + '%');
+                    if(num == 100) {
+                        setTimeout(function () {
+                            clearInterval(IntervalName);
+                            $('#loadingBtn').show();
+                            setTimeout(function () {
+                                $('#loadingBtn').addClass('active');
+                            },500)
+                            $('#loadingNum').addClass('active');
+                        },500)
+                    }
+                })
+            },500)
+
+        }
+        // 开屏提示
+        setTimeout(function () {
+            stop();
+            fnLoading();
+        },800)
+
+        $('#loadingBtn').click(function () {
+            $('.loading-box').addClass('active');
+            setTimeout(function () {
+                $('.loading-box').hide();
+                move();
+                musicPlay();
+                $('.box').addClass('active')
+            },500)
+        })
+    }
+</script>

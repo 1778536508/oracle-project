@@ -1,0 +1,9 @@
+@charset "UTF-8";
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: '';
+}

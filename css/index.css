@@ -259,6 +259,7 @@
 .box {
   width: 10rem;
   overflow: hidden;
+  margin: 0 auto;
 }
 .box.active .box-pics li.screen1 b:nth-of-type(1) {
   -webkit-transition-property: -webkit-transform;

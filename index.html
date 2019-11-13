@@ -52,38 +52,65 @@
                         <em><img src="./image/icon/i-3.png" alt=""></em>
                     </div>
                 </div>
+                <b class="video-play-btn" data-video="http://stream.nlc.cn/issue/zhuanti/jiaguwen/2019MOOC0051_01.mp4"><img src="./image/icon/y-b.png" alt=""></b>
                 <i><img src="./image/back_img/2.jpg" alt=""></i>
             </li>
-            <li data-delighter><i><img src="./image/back_img/3.jpg" alt=""></i></li>
+            <li data-delighter>
+                <em class="suipian2"><img src="./image/icon/i-4.png" alt=""></em>
+                <i><img src="./image/back_img/3.jpg" alt=""></i>
+            </li>
             <li data-delighter><i><img src="./image/back_img/4.jpg" alt=""></i></li>
-            <li data-delighter><i><img src="./image/back_img/5.jpg" alt=""></i></li>
+            <li data-delighter>
+                <em class="suipian3"><img src="./image/icon/i-5.png" alt=""></em>
+                <i><img src="./image/back_img/5.jpg" alt=""></i>
+            </li>
 
             <li data-delighter><i><img src="./image/back_img/6.jpg" alt=""></i></li>
-            <li data-delighter><i><img src="./image/back_img/7.jpg" alt=""></i></li>
+            <li data-delighter>
+                <i><img src="./image/back_img/7.jpg" alt=""></i>
+            </li>
             <li data-delighter><i><img src="./image/back_img/8.jpg" alt=""></i></li>
-            <li data-delighter><i><img src="./image/back_img/9.jpg" alt=""></i></li>
-            <li data-delighter><i><img src="./image/back_img/10.jpg" alt=""></i></li>
+            <li data-delighter>
+                <b class="video-play-btn" data-video="http://stream.nlc.cn/issue/zhuanti/jiaguwen/2016MOOC0116_01.mp4"><img src="./image/icon/y-b.png" alt=""></b>
+                <i><img src="./image/back_img/9.jpg" alt=""></i>
+            </li>
+            <li data-delighter>
+                <em class="suipian5"><img src="./image/icon/i-8.png" alt=""></em>
+                <i><img src="./image/back_img/10.jpg" alt=""></i>
+            </li>
 
             <li data-delighter><i><img src="./image/back_img/11.jpg" alt=""></i></li>
             <li data-delighter><i><img src="./image/back_img/12.jpg" alt=""></i></li>
-            <li data-delighter><i><img src="./image/back_img/13.jpg" alt=""></i></li>
+            <li data-delighter>
+                <b class="video-play-btn" data-video="http://stream.nlc.cn/issue/zhuanti/jiaguwen/2016MOOC0119_01.mp4"><img src="./image/icon/y-b.png" alt=""></b>
+                <i><img src="./image/back_img/13.jpg" alt=""></i>
+            </li>
             <li data-delighter><i><img src="./image/back_img/14.jpg" alt=""></i></li>
             <li data-delighter><i><img src="./image/back_img/15.jpg" alt=""></i></li>
 
             <li data-delighter><i><img src="./image/back_img/16.jpg" alt=""></i></li>
             <li data-delighter><i><img src="./image/back_img/17.jpg" alt=""></i></li>
-            <li data-delighter><i><img src="./image/back_img/18.jpg" alt=""></i></li>
+            <li data-delighter>
+                <em class="suipian6"><img src="./image/icon/i-9.png" alt=""></em>
+                <i><img src="./image/back_img/18.jpg" alt=""></i>
+            </li>
             <li data-delighter><i><img src="./image/back_img/19.jpg" alt=""></i></li>
             <li data-delighter><i><img src="./image/back_img/20.jpg" alt=""></i></li>
 
             <li data-delighter><i><img src="./image/back_img/21.jpg" alt=""></i></li>
             <li data-delighter><i><img src="./image/back_img/22.jpg" alt=""></i></li>
-            <li data-delighter><i><img src="./image/back_img/23.jpg" alt=""></i></li>
+            <li data-delighter>
+                <b class="video-play-btn" data-video="http://stream.nlc.cn/issue/zhuanti/jiaguwen/2015MOOC0277_01.mp4"><img src="./image/icon/y-b.png" alt=""></b>
+                <i><img src="./image/back_img/23.jpg" alt=""></i>
+            </li>
             <li data-delighter><i><img src="./image/back_img/24.jpg" alt=""></i></li>
             <li data-delighter><i><img src="./image/back_img/25.jpg" alt=""></i></li>
 
             <li data-delighter><i><img src="./image/back_img/26.jpg" alt=""></i></li>
-            <li data-delighter><i><img src="./image/back_img/28.jpg" alt=""></i></li>
+            <li data-delighter>
+                <em class="suipian4"><img src="./image/icon/i-7.png" alt=""></em>
+                <i><img src="./image/back_img/28.jpg" alt=""></i>
+            </li>
         </ul>
     </div>
     <div class="music-box active">
@@ -144,6 +171,13 @@
             state = !state
         })
 
+        // 视频播放
+        $('.video-play-btn').click(function () {
+            var prop = $(this).attr('data-video');
+            console.log(prop)
+        })
+
+
         //loading
         function fnLoading() {
             var num = Number($('#loadingNum').html().split('%')[0]);
@@ -170,7 +204,7 @@
         }
         // 开屏提示
         setTimeout(function () {
-            stop();
+            // stop();
             fnLoading();
         },800)
 

@@ -113,6 +113,11 @@
             </li>
         </ul>
     </div>
+    <!--    视频-->
+    <div class="video-box">
+
+    </div>
+    <!--    音频-->
     <div class="music-box active">
         <img src="./image/icon/m-k.gif" alt="">
         <audio
@@ -175,8 +180,50 @@
         $('.video-play-btn').click(function () {
             var prop = $(this).attr('data-video');
             console.log(prop)
-        })
-
+            stop();
+            $('.video-box').show();
+            setvideo($(this).attr('data-video'));
+            document.getElementsByTagName('audio')[0].pause();
+            $('.music-box').removeClass('active');
+            $('.music-box').children('img').attr('src', './image/icon/m-g.png')
+        });
+        $('.video-box').click(function(){
+            move();
+            $('.video-box').hide();
+            document.getElementById('video').pause()
+            document.getElementsByTagName('audio')[0].play();
+            $('.music-box').addClass('active')
+            $('.music-box').children('img').attr('src', './image/icon/m-k.gif')
+        });
+        function setvideo(url) {
+            var youku = $(".video-box");
+            var htmlstr = '';
+            if(SetSystem() == 'Android') {
+                $('.video-box').addClass('active');
+                htmlstr ='<video class="active" id="video" width="100%" src="'+url+'" poster="img/lunyu.png" preload="auto" controls="controls"></video>'
+            } else {
+                $('.video-box').removeClass('active');
+                htmlstr ='<video id="video" width="100%" poster="img/lunyu.png" preload="auto" x-webkit-airplay="true" webkit-playsinline="true" playsinline="true" x5-playsinline="" x5-video-player-fullscreen="false" controls="controls">' +
+                    '<source src="'+url+'" type="video/mp4" />'
+                '</video>'
+            }
+            youku.html(htmlstr);
+            document.getElementById('video').play();
+            // document.getElementById('video').requestFullscreen();
+        };
+        function SetSystem() {
+            var u = navigator.userAgent, app = navigator.appVersion;
+            var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Linux') > -1; //g
+            var isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+            if (isAndroid) {
+                //这个是安卓操作系统
+                return 'Android'
+            }
+            if (isIOS) {
+                //这个是ios操作系统
+                return 'Ios'
+            }
+        }
 
         //loading
         function fnLoading() {
@@ -204,7 +251,7 @@
         }
         // 开屏提示
         setTimeout(function () {
-            // stop();
+            stop();
             fnLoading();
         },800)
 

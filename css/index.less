@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import "./mixin";
  .loading-box {
-   display: none;
+   display: block;
    position: fixed;
    left: 0;
    top: 0;
@@ -61,7 +61,7 @@
      }
      &:nth-of-type(2) {
        font-size: 62rem/@size;
-       top: 50%;
+       top: 55%;
        left: 50%;
        -webkit-transform: translate(-50%, -50%);
        -moz-transform: translate(-50%, -50%);
@@ -96,6 +96,38 @@
      }
    }
  }
+
+
+
+
+.video-box {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 10;
+  &.active {
+    background: #000;
+  }
+  video {
+    background: #000000;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    visibility: visible;
+  }
+}
+
+
+
 @-webkit-keyframes rotate{from{-webkit-transform: rotate(0deg)}
   to{-webkit-transform: rotate(360deg)}
 }
@@ -183,7 +215,7 @@
 
 
 // 碎片
-@keyframes s1{from{right: -180rem/@size;}  // 移入
+@keyframes s1{from{right: -220rem/@size;}  // 移入
   to{right: -80rem/@size;}
 }
 @keyframes s1-1{
@@ -192,7 +224,7 @@
   100%{top: -100rem/@size;}
 }
 
-@keyframes s2{from{left: -240rem/@size;}  // 移入
+@keyframes s2{from{left: -280rem/@size;}  // 移入
   to{left: -180rem/@size;}
 }
 @keyframes s2-2{
@@ -201,7 +233,7 @@
   100%{bottom: -300rem/@size;}
 }
 
-@keyframes s3{from{right: -240rem/@size;}  // 移入
+@keyframes s3{from{right: -280rem/@size;}  // 移入
   to{right: -180rem/@size;}
 }
 @keyframes s3-3{
@@ -535,17 +567,17 @@
            }
            &:nth-of-type(1) {
              top: -100rem/@size;
-             right: -180rem/@size;
+             right: -220rem/@size;
              width: 200rem/@size;
            }
            &:nth-of-type(2) {
              bottom: -300rem/@size;
-             left: -240rem/@size;
+             left: -280rem/@size;
              width: 300rem/@size;
            }
            &:nth-of-type(3) {
              bottom: -100rem/@size;
-             right: -240rem/@size;
+             right: -280rem/@size;
              width: 400rem/@size;
 
            }

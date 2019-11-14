@@ -235,6 +235,15 @@
                 '</video>'
             }
             youku.html(htmlstr);
+            var videoArr = ['video1', 'video2', 'video3', 'video4'];
+            for(var i = 0; i < videoArr.length; i++) {
+                if(videoArr[i] != str) {
+                    console.log(videoArr[i])
+                    if(document.getElementById(videoArr[i])) {
+                        document.getElementById(videoArr[i]).pause();
+                    }
+                }
+            }
             document.getElementById(str).play();
             // document.getElementById('video').requestFullscreen();
         };

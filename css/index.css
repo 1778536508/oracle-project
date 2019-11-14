@@ -235,7 +235,7 @@
 @keyframes z1 {
   from {
     transform: scale(10);
-    opacity: 1;
+    opacity: 0;
   }
   to {
     transform: scale(1);
@@ -245,7 +245,7 @@
 @keyframes z2 {
   from {
     transform: scale(10);
-    opacity: 1;
+    opacity: 0;
   }
   to {
     transform: scale(1);
@@ -255,7 +255,7 @@
 @keyframes z3 {
   from {
     transform: scale(10);
-    opacity: 1;
+    opacity: 0;
   }
   to {
     transform: scale(1);
@@ -265,7 +265,7 @@
 @keyframes z4 {
   from {
     transform: scale(10);
-    opacity: 1;
+    opacity: 0;
   }
   to {
     transform: scale(1);
@@ -275,7 +275,7 @@
 @keyframes z5 {
   from {
     transform: scale(10);
-    opacity: 1;
+    opacity: 0;
   }
   to {
     transform: scale(1);

@@ -227,7 +227,7 @@
             var htmlstr = '';
             if(SetSystem() == 'Android') {
                 $('.video-box').addClass('active');
-                htmlstr ='<video class="active" id="'+ str +'" width="100%" src="'+url+'" poster="img/lunyu.png" preload="auto" controls="controls"></video>'
+                htmlstr ='<video class="active" id="'+ str +'" width="100%" src="'+url+'" poster="img/lunyu.png" preload="auto" x-webkit-airplay="true" webkit-playsinline="true" playsinline="true" x5-playsinline="" x5-video-player-fullscreen="false" controls="controls"></video>'
             } else {
                 $('.video-box').removeClass('active');
                 htmlstr ='<video id="'+ str +'" width="100%" poster="img/lunyu.png" preload="auto" x-webkit-airplay="true" webkit-playsinline="true" playsinline="true" x5-playsinline="" x5-video-player-fullscreen="false" controls="controls">' +

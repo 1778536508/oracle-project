@@ -8,7 +8,7 @@
   content: '';
 }
 .loading-box {
-  display: block;
+  display: none;
   position: fixed;
   left: 0;
   top: 0;
@@ -1009,8 +1009,8 @@
   left: 1.37333333rem;
 }
 .box .box-pics li:nth-of-type(2) .video-play-btn {
-  bottom: 1.6rem;
-  left: 4.66666667rem;
+  bottom: 1.53333333rem;
+  left: 4.4rem;
 }
 .box .box-pics li:nth-of-type(3).started .suipian2 {
   -webkit-transition-property: -webkit-transform;

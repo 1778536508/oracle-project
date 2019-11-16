@@ -284,10 +284,10 @@
 }
 @keyframes s1 {
   from {
-    right: -2.93333333rem;
+    opacity: 0;
   }
   to {
-    right: -1.06666667rem;
+    opacity: 1;
   }
 }
 @keyframes s1-1 {
@@ -303,10 +303,10 @@
 }
 @keyframes s2 {
   from {
-    left: -3.73333333rem;
+    opacity: 0;
   }
   to {
-    left: -2.4rem;
+    opacity: 1;
   }
 }
 @keyframes s2-2 {
@@ -322,10 +322,10 @@
 }
 @keyframes s3 {
   from {
-    right: -4.93333333rem;
+    opacity: 0;
   }
   to {
-    right: -2.4rem;
+    opacity: 1;
   }
 }
 @keyframes s3-3 {
@@ -341,10 +341,10 @@
 }
 @keyframes s4 {
   from {
-    right: -1.33333333rem;
+    opacity: 0;
   }
   to {
-    right: 0.26666667rem;
+    opacity: 1;
   }
 }
 @keyframes s4-4 {
@@ -360,10 +360,10 @@
 }
 @keyframes s5 {
   from {
-    right: -1.6rem;
+    opacity: 0;
   }
   to {
-    right: 2.66666667rem;
+    opacity: 1;
   }
 }
 @keyframes s5-5 {
@@ -379,10 +379,10 @@
 }
 @keyframes s6 {
   from {
-    right: -1.06666667rem;
+    opacity: 0;
   }
   to {
-    right: 1.33333333rem;
+    opacity: 1;
   }
 }
 @keyframes s6-6 {
@@ -398,10 +398,10 @@
 }
 @keyframes s7 {
   from {
-    right: -1.6rem;
+    opacity: 0;
   }
   to {
-    right: -1.06666667rem;
+    opacity: 1;
   }
 }
 @keyframes s7-7 {
@@ -417,10 +417,10 @@
 }
 @keyframes s8 {
   from {
-    right: -1.06666667rem;
+    opacity: 0;
   }
   to {
-    right: 5.06666667rem;
+    opacity: 1;
   }
 }
 @keyframes s8-8 {
@@ -436,10 +436,10 @@
 }
 @keyframes s9 {
   from {
-    left: -2rem;
+    opacity: 0;
   }
   to {
-    left: -0.8rem;
+    opacity: 1;
   }
 }
 @keyframes s9-9 {
@@ -455,10 +455,10 @@
 }
 @keyframes s10 {
   from {
-    left: -2.4rem;
+    opacity: 0;
   }
   to {
-    left: -1.06666667rem;
+    opacity: 1;
   }
 }
 @keyframes s10-10 {
@@ -474,10 +474,10 @@
 }
 @keyframes s11 {
   from {
-    left: -1.33333333rem;
+    opacity: 0;
   }
   to {
-    left: 0.4rem;
+    opacity: 1;
   }
 }
 @keyframes s11-11 {
@@ -493,10 +493,10 @@
 }
 @keyframes s12 {
   from {
-    right: -2rem;
+    opacity: 0;
   }
   to {
-    right: -0.4rem;
+    opacity: 1;
   }
 }
 @keyframes s12-12 {
@@ -512,10 +512,10 @@
 }
 @keyframes s13 {
   from {
-    right: -2rem;
+    opacity: 0;
   }
   to {
-    right: 0.26666667rem;
+    opacity: 1;
   }
 }
 @keyframes s13-13 {
@@ -531,10 +531,10 @@
 }
 @keyframes s14 {
   from {
-    right: -3.73333333rem;
+    opacity: 0;
   }
   to {
-    right: -1.33333333rem;
+    opacity: 1;
   }
 }
 @keyframes s14-14 {
@@ -550,10 +550,10 @@
 }
 @keyframes s15 {
   from {
-    left: -2.66666667rem;
+    opacity: 0;
   }
   to {
-    left: -1.33333333rem;
+    opacity: 1;
   }
 }
 @keyframes s15-15 {
@@ -569,10 +569,10 @@
 }
 @keyframes s16 {
   from {
-    left: -2rem;
+    opacity: 0;
   }
   to {
-    left: -1.06666667rem;
+    opacity: 1;
   }
 }
 @keyframes s16-16 {
@@ -588,10 +588,10 @@
 }
 @keyframes s17 {
   from {
-    left: -2rem;
+    opacity: 0;
   }
   to {
-    left: -0.66666667rem;
+    opacity: 1;
   }
 }
 @keyframes s17-17 {
@@ -827,54 +827,61 @@
   width: 100%;
 }
 .box .box-pics li .suipian em:nth-of-type(1) {
+  opacity: 0;
   top: -1.33333333rem;
-  right: -2.93333333rem;
+  right: -1.06666667rem;
   width: 2.66666667rem;
 }
 .box .box-pics li .suipian em:nth-of-type(2) {
+  opacity: 0;
   bottom: -4rem;
-  left: -3.73333333rem;
+  left: -2.4rem;
   width: 4rem;
 }
 .box .box-pics li .suipian em:nth-of-type(3) {
+  opacity: 0;
   bottom: -1.33333333rem;
-  right: -4.93333333rem;
+  right: -2.4rem;
   width: 5.33333333rem;
 }
 .box .box-pics li .suipian2 {
+  opacity: 0;
   display: block;
   width: 1.33333333rem;
   position: absolute;
   top: 6rem;
-  right: -1.33333333rem;
+  right: 0.26666667rem;
 }
 .box .box-pics li .suipian2 img {
   display: block;
   width: 100%;
 }
 .box .box-pics li .suipian3 {
+  opacity: 0;
   display: block;
   width: 2.4rem;
   position: absolute;
   top: 0.93333333rem;
-  right: -1.6rem;
+  right: 2.66666667rem;
 }
 .box .box-pics li .suipian3 img {
   display: block;
   width: 100%;
 }
 .box .box-pics li .suipian4 {
+  opacity: 0;
   display: block;
   width: 1.06666667rem;
   position: absolute;
   bottom: 2.24rem;
-  right: -1.06666667rem;
+  right: 1.33333333rem;
 }
 .box .box-pics li .suipian4 img {
   display: block;
   width: 100%;
 }
 .box .box-pics li .suipian5 {
+  opacity: 0;
   display: block;
   width: 2.4rem;
   position: absolute;
@@ -886,110 +893,120 @@
   width: 100%;
 }
 .box .box-pics li .suipian6 {
+  opacity: 0;
   display: block;
   width: 0.8rem;
   position: absolute;
   top: 0rem;
-  right: -1.06666667rem;
+  right: 5.06666667rem;
 }
 .box .box-pics li .suipian6 img {
   display: block;
   width: 100%;
 }
 .box .box-pics li .suipian7 {
+  opacity: 0;
   display: block;
   width: 2rem;
   position: absolute;
   bottom: 4.66666667rem;
-  left: -2rem;
+  left: -0.8rem;
 }
 .box .box-pics li .suipian7 img {
   display: block;
   width: 100%;
 }
 .box .box-pics li .suipian8 {
+  opacity: 0;
   display: block;
   width: 2rem;
   position: absolute;
   bottom: 5.6rem;
-  left: -2.4rem;
+  left: -1.06666667rem;
 }
 .box .box-pics li .suipian8 img {
   display: block;
   width: 100%;
 }
 .box .box-pics li .suipian9 {
+  opacity: 0;
   display: block;
   width: 1.6rem;
   position: absolute;
   top: 0.13333333rem;
-  left: -1.33333333rem;
+  left: 0.4rem;
 }
 .box .box-pics li .suipian9 img {
   display: block;
   width: 100%;
 }
 .box .box-pics li .suipian10 {
+  opacity: 0;
   display: block;
   width: 2rem;
   position: absolute;
   top: 1.06666667rem;
-  right: -2rem;
+  right: -0.4rem;
 }
 .box .box-pics li .suipian10 img {
   display: block;
   width: 100%;
 }
 .box .box-pics li .suipian11 {
+  opacity: 0;
   display: block;
   width: 2rem;
   position: absolute;
   bottom: 3.73333333rem;
-  right: -2rem;
+  right: 0.26666667rem;
 }
 .box .box-pics li .suipian11 img {
   display: block;
   width: 100%;
 }
 .box .box-pics li .suipian12 {
+  opacity: 0;
   display: block;
   width: 4rem;
   position: absolute;
   top: 0.13333333rem;
-  right: -3.73333333rem;
+  right: -1.33333333rem;
 }
 .box .box-pics li .suipian12 img {
   display: block;
   width: 100%;
 }
 .box .box-pics li .suipian13 {
+  opacity: 0;
   display: block;
   width: 2.53333333rem;
   position: absolute;
   top: 2.46666667rem;
-  left: -2.66666667rem;
+  left: -1.33333333rem;
 }
 .box .box-pics li .suipian13 img {
   display: block;
   width: 100%;
 }
 .box .box-pics li .suipian14 {
+  opacity: 0;
   display: block;
   width: 2rem;
   position: absolute;
   bottom: 1.33333333rem;
-  left: -2rem;
+  left: -1.06666667rem;
 }
 .box .box-pics li .suipian14 img {
   display: block;
   width: 100%;
 }
 .box .box-pics li .suipian15 {
+  opacity: 0;
   display: block;
   width: 1.86666667rem;
   position: absolute;
   bottom: 0.26666667rem;
-  left: -2rem;
+  left: -0.66666667rem;
 }
 .box .box-pics li .suipian15 img {
   display: block;
@@ -1014,11 +1031,9 @@
 }
 .box .box-pics li:nth-of-type(3).started .suipian2 {
   -webkit-transition-property: -webkit-transform;
-  -webkit-transition-duration: 1s;
   -moz-transition-property: -moz-transform;
-  -moz-transition-duration: 0s;
   -webkit-animation-name: s4, s4-4;
-  -webkit-animation-duration: 1s, 4s;
+  -webkit-animation-duration: 2s, 4s;
   -webkit-animation-timing-function: ease, ease;
   -webkit-animation-delay: 0s, 1s;
   -webkit-animation-iteration-count: 1, infinite;
@@ -1026,23 +1041,19 @@
 }
 .box .box-pics li:nth-of-type(4).started .suipian7 {
   -webkit-transition-property: -webkit-transform;
-  -webkit-transition-duration: 1s;
   -moz-transition-property: -moz-transform;
-  -moz-transition-duration: 0s;
   -webkit-animation-name: s9, s9-9;
-  -webkit-animation-duration: 1s, 5s;
+  -webkit-animation-duration: 2s, 5s;
   -webkit-animation-timing-function: ease, ease;
-  -webkit-animation-delay: 0s, .5s;
+  -webkit-animation-delay: 0s, 1s;
   -webkit-animation-iteration-count: 1, infinite;
   -webkit-animation-fill-mode: forwards, none;
 }
 .box .box-pics li:nth-of-type(5).started .suipian3 {
   -webkit-transition-property: -webkit-transform;
-  -webkit-transition-duration: 1s;
   -moz-transition-property: -moz-transform;
-  -moz-transition-duration: 0s;
   -webkit-animation-name: s5, s5-5;
-  -webkit-animation-duration: 1s, 3s;
+  -webkit-animation-duration: 2s, 3s;
   -webkit-animation-timing-function: ease, ease;
   -webkit-animation-delay: 0s, 1s;
   -webkit-animation-iteration-count: 1, infinite;
@@ -1058,11 +1069,9 @@
 }
 .box .box-pics li:nth-of-type(9).started .suipian8 {
   -webkit-transition-property: -webkit-transform;
-  -webkit-transition-duration: 1s;
   -moz-transition-property: -moz-transform;
-  -moz-transition-duration: 0s;
   -webkit-animation-name: s10, s10-10;
-  -webkit-animation-duration: 1s, 4s;
+  -webkit-animation-duration: 2s, 4s;
   -webkit-animation-timing-function: ease, ease;
   -webkit-animation-delay: 0s, 1s;
   -webkit-animation-iteration-count: 1, infinite;
@@ -1070,11 +1079,9 @@
 }
 .box .box-pics li:nth-of-type(10).started .suipian5 {
   -webkit-transition-property: -webkit-transform;
-  -webkit-transition-duration: 1s;
   -moz-transition-property: -moz-transform;
-  -moz-transition-duration: 0s;
   -webkit-animation-name: s7, s7-7;
-  -webkit-animation-duration: 1s, 4s;
+  -webkit-animation-duration: 2s, 4s;
   -webkit-animation-timing-function: ease, ease;
   -webkit-animation-delay: 0s, 1s;
   -webkit-animation-iteration-count: 1, infinite;
@@ -1090,11 +1097,9 @@
 }
 .box .box-pics li:nth-of-type(13).started .suipian9 {
   -webkit-transition-property: -webkit-transform;
-  -webkit-transition-duration: 1s;
   -moz-transition-property: -moz-transform;
-  -moz-transition-duration: 0s;
   -webkit-animation-name: s11, s11-11;
-  -webkit-animation-duration: 1s, 4s;
+  -webkit-animation-duration: 2s, 4s;
   -webkit-animation-timing-function: ease, ease;
   -webkit-animation-delay: 0s, 1s;
   -webkit-animation-iteration-count: 1, infinite;
@@ -1102,11 +1107,9 @@
 }
 .box .box-pics li:nth-of-type(15).started .suipian13 {
   -webkit-transition-property: -webkit-transform;
-  -webkit-transition-duration: 1s;
   -moz-transition-property: -moz-transform;
-  -moz-transition-duration: 0s;
   -webkit-animation-name: s15, s15-15;
-  -webkit-animation-duration: 1s, 4s;
+  -webkit-animation-duration: 2s, 4s;
   -webkit-animation-timing-function: ease, ease;
   -webkit-animation-delay: 0s, 1s;
   -webkit-animation-iteration-count: 1, infinite;
@@ -1114,11 +1117,9 @@
 }
 .box .box-pics li:nth-of-type(18).started .suipian6 {
   -webkit-transition-property: -webkit-transform;
-  -webkit-transition-duration: 1s;
   -moz-transition-property: -moz-transform;
-  -moz-transition-duration: 0s;
   -webkit-animation-name: s8, s8-8;
-  -webkit-animation-duration: 1s, 4s;
+  -webkit-animation-duration: 2s, 4s;
   -webkit-animation-timing-function: ease, ease;
   -webkit-animation-delay: 0s, 1s;
   -webkit-animation-iteration-count: 1, infinite;
@@ -1126,11 +1127,9 @@
 }
 .box .box-pics li:nth-of-type(20).started .suipian10 {
   -webkit-transition-property: -webkit-transform;
-  -webkit-transition-duration: 1s;
   -moz-transition-property: -moz-transform;
-  -moz-transition-duration: 0s;
   -webkit-animation-name: s12, s12-12;
-  -webkit-animation-duration: 1s, 4s;
+  -webkit-animation-duration: 2s, 4s;
   -webkit-animation-timing-function: ease, ease;
   -webkit-animation-delay: 0s, 1s;
   -webkit-animation-iteration-count: 1, infinite;
@@ -1138,11 +1137,9 @@
 }
 .box .box-pics li:nth-of-type(21).started .suipian11 {
   -webkit-transition-property: -webkit-transform;
-  -webkit-transition-duration: 1s;
   -moz-transition-property: -moz-transform;
-  -moz-transition-duration: 0s;
   -webkit-animation-name: s13, s13-13;
-  -webkit-animation-duration: 1s, 4s;
+  -webkit-animation-duration: 2s, 4s;
   -webkit-animation-timing-function: ease, ease;
   -webkit-animation-delay: 0s, 1s;
   -webkit-animation-iteration-count: 1, infinite;
@@ -1160,11 +1157,9 @@
 }
 .box .box-pics li:nth-of-type(23).started .suipian12 {
   -webkit-transition-property: -webkit-transform;
-  -webkit-transition-duration: 1s;
   -moz-transition-property: -moz-transform;
-  -moz-transition-duration: 0s;
   -webkit-animation-name: s14, s14-14;
-  -webkit-animation-duration: 1s, 4s;
+  -webkit-animation-duration: 2s, 4s;
   -webkit-animation-timing-function: ease, ease;
   -webkit-animation-delay: 0s, 1s;
   -webkit-animation-iteration-count: 1, infinite;
@@ -1172,11 +1167,9 @@
 }
 .box .box-pics li:nth-of-type(25).started .suipian14 {
   -webkit-transition-property: -webkit-transform;
-  -webkit-transition-duration: 1s;
   -moz-transition-property: -moz-transform;
-  -moz-transition-duration: 0s;
   -webkit-animation-name: s16, s16-16;
-  -webkit-animation-duration: 1s, 4s;
+  -webkit-animation-duration: 2s, 4s;
   -webkit-animation-timing-function: ease, ease;
   -webkit-animation-delay: 0s, 1s;
   -webkit-animation-iteration-count: 1, infinite;
@@ -1184,11 +1177,9 @@
 }
 .box .box-pics li:nth-of-type(26).started .suipian15 {
   -webkit-transition-property: -webkit-transform;
-  -webkit-transition-duration: 1s;
   -moz-transition-property: -moz-transform;
-  -moz-transition-duration: 0s;
   -webkit-animation-name: s17, s17-17;
-  -webkit-animation-duration: 1s, 4s;
+  -webkit-animation-duration: 2s, 4s;
   -webkit-animation-timing-function: ease, ease;
   -webkit-animation-delay: 0s, 1s;
   -webkit-animation-iteration-count: 1, infinite;
@@ -1196,11 +1187,9 @@
 }
 .box .box-pics li:nth-of-type(27).started .suipian4 {
   -webkit-transition-property: -webkit-transform;
-  -webkit-transition-duration: 1s;
   -moz-transition-property: -moz-transform;
-  -moz-transition-duration: 0s;
   -webkit-animation-name: s6, s6-6;
-  -webkit-animation-duration: 1s, 3s;
+  -webkit-animation-duration: 2s, 3s;
   -webkit-animation-timing-function: ease, ease;
   -webkit-animation-delay: 0s, 1s;
   -webkit-animation-iteration-count: 1, infinite;

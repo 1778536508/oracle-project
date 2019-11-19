@@ -107,7 +107,7 @@
   position: absolute;
   // background: red;
   &.active {
-    background: #000;
+    // background: #000;
   }
   video {
     object-fit:fill;
@@ -1129,6 +1129,18 @@
         }
          .video-play-btn {
            top: 400rem/@size;
+           left: 320rem/@size;
+         }
+         .video-box.active {
+          width: 565rem/@size;
+          height: 320rem/@size;
+          top:auto;
+          bottom: 190rem/@size;
+          left: 90rem/@size;
+        }
+         .video-play-btn.active {
+           top: auto;
+           bottom: 300rem/@size;
            left: 320rem/@size;
          }
          &.started {

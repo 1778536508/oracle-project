@@ -108,9 +108,6 @@
   height: 4.13333333rem;
   position: absolute;
 }
-.video-box.active {
-  background: #000;
-}
 .video-box video {
   object-fit: fill;
   width: 100%;
@@ -1154,6 +1151,18 @@
 }
 .box .box-pics li:nth-of-type(23) .video-play-btn {
   top: 5.33333333rem;
+  left: 4.26666667rem;
+}
+.box .box-pics li:nth-of-type(23) .video-box.active {
+  width: 7.53333333rem;
+  height: 4.26666667rem;
+  top: auto;
+  bottom: 2.53333333rem;
+  left: 1.2rem;
+}
+.box .box-pics li:nth-of-type(23) .video-play-btn.active {
+  top: auto;
+  bottom: 4rem;
   left: 4.26666667rem;
 }
 .box .box-pics li:nth-of-type(23).started .suipian12 {

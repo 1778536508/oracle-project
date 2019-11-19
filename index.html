@@ -76,9 +76,6 @@
             </li>
             <li data-delighter><i><img src="./image/back_img/8.jpg" alt=""></i></li>
             <li data-delighter>
-                <!--    视频-->
-                <div class="video-box"></div>
-                <b class="video-play-btn" data-id="video2" data-video="http://stream.nlc.cn/issue/zhuanti/jiaguwen/2016MOOC0116_01.mp4"><img src="./image/icon/y-b.png" alt=""></b>
                 <em class="suipian8"><img src="./image/icon/i-10.png" alt=""></em>
                 <i><img src="./image/back_img/9.jpg" alt=""></i>
             </li>
@@ -130,6 +127,11 @@
                 <b class="video-play-btn" data-id="video4" data-video="http://stream.nlc.cn/issue/zhuanti/jiaguwen/2015MOOC0277_01.mp4"><img src="./image/icon/y-b.png" alt=""></b>
                 <em class="suipian12"><img src="./image/icon/i-14.png" alt=""></em>
                 <i><img src="./image/back_img/23.jpg" alt=""></i>
+                <div>
+                    <!--    视频-->
+                    <div class="video-box active"></div>
+                    <b class="video-play-btn active" data-id="video2" data-video="http://stream.nlc.cn/issue/zhuanti/jiaguwen/2016MOOC0116_01.mp4"><img src="./image/icon/y-b.png" alt=""></b>
+                </div>
             </li>
             <li data-delighter>
                 <em class="suipian18"><img src="./image/icon/i-7.png" alt=""></em>
@@ -235,10 +237,10 @@
             var youku = dom;
             var htmlstr = '';
             if(SetSystem() == 'Android') {
-                $('.video-box').addClass('active');
+                // $('.video-box').addClass('active');
                 htmlstr ='<video class="active" id="'+ str +'" width="100%" src="'+url+'" poster="img/lunyu.png" preload="auto" x-webkit-airplay="true" webkit-playsinline="true" playsinline="true" x5-playsinline="" x5-video-player-fullscreen="false" controls="controls"></video>'
             } else {
-                $('.video-box').removeClass('active');
+                // $('.video-box').removeClass('active');
                 htmlstr ='<video id="'+ str +'" width="100%" poster="img/lunyu.png" preload="auto" x-webkit-airplay="true" webkit-playsinline="true" playsinline="true" x5-playsinline="" x5-video-player-fullscreen="false" controls="controls">' +
                     '<source src="'+url+'" type="video/mp4" />'
                 '</video>'

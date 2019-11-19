@@ -291,15 +291,7 @@
   }
 }
 @keyframes s1-1 {
-  0% {
-    top: -1.33333333rem;
-  }
-  50% {
-    top: -2rem;
-  }
-  100% {
-    top: -1.33333333rem;
-  }
+  
 }
 @keyframes s2 {
   from {
@@ -310,15 +302,7 @@
   }
 }
 @keyframes s2-2 {
-  0% {
-    bottom: -4rem;
-  }
-  50% {
-    bottom: -3.33333333rem;
-  }
-  100% {
-    bottom: -4rem;
-  }
+  
 }
 @keyframes s3 {
   from {
@@ -329,15 +313,7 @@
   }
 }
 @keyframes s3-3 {
-  0% {
-    bottom: -1.33333333rem;
-  }
-  50% {
-    bottom: -0.66666667rem;
-  }
-  100% {
-    bottom: -1.33333333rem;
-  }
+  
 }
 @keyframes s4 {
   from {
@@ -348,15 +324,7 @@
   }
 }
 @keyframes s4-4 {
-  0% {
-    top: 6rem;
-  }
-  50% {
-    top: 5.33333333rem;
-  }
-  100% {
-    top: 6rem;
-  }
+  
 }
 @keyframes s5 {
   from {
@@ -367,15 +335,7 @@
   }
 }
 @keyframes s5-5 {
-  0% {
-    top: 0.93333333rem;
-  }
-  50% {
-    top: 0.26666667rem;
-  }
-  100% {
-    top: 0.93333333rem;
-  }
+  
 }
 @keyframes s6 {
   from {
@@ -405,15 +365,7 @@
   }
 }
 @keyframes s7-7 {
-  0% {
-    top: 3.06666667rem;
-  }
-  50% {
-    top: 2.50666667rem;
-  }
-  100% {
-    top: 3.06666667rem;
-  }
+  
 }
 @keyframes s8 {
   from {
@@ -443,15 +395,7 @@
   }
 }
 @keyframes s9-9 {
-  0% {
-    bottom: 4.66666667rem;
-  }
-  50% {
-    bottom: 5.73333333rem;
-  }
-  100% {
-    bottom: 4.66666667rem;
-  }
+  
 }
 @keyframes s10 {
   from {
@@ -462,15 +406,7 @@
   }
 }
 @keyframes s10-10 {
-  0% {
-    bottom: 5.6rem;
-  }
-  50% {
-    bottom: 6.26666667rem;
-  }
-  100% {
-    bottom: 5.6rem;
-  }
+  
 }
 @keyframes s11 {
   from {
@@ -481,15 +417,7 @@
   }
 }
 @keyframes s11-11 {
-  0% {
-    top: 0.13333333rem;
-  }
-  50% {
-    top: -0.53333333rem;
-  }
-  100% {
-    top: 0.13333333rem;
-  }
+  
 }
 @keyframes s12 {
   from {
@@ -500,15 +428,7 @@
   }
 }
 @keyframes s12-12 {
-  0% {
-    top: 1.06666667rem;
-  }
-  50% {
-    top: 0.4rem;
-  }
-  100% {
-    top: 1.06666667rem;
-  }
+  
 }
 @keyframes s13 {
   from {
@@ -538,15 +458,7 @@
   }
 }
 @keyframes s14-14 {
-  0% {
-    top: 0.13333333rem;
-  }
-  50% {
-    top: -0.53333333rem;
-  }
-  100% {
-    top: 0.13333333rem;
-  }
+  
 }
 @keyframes s15 {
   from {
@@ -557,15 +469,7 @@
   }
 }
 @keyframes s15-15 {
-  0% {
-    top: 2.46666667rem;
-  }
-  50% {
-    top: 1.8rem;
-  }
-  100% {
-    top: 2.46666667rem;
-  }
+  
 }
 @keyframes s16 {
   from {
@@ -576,15 +480,7 @@
   }
 }
 @keyframes s16-16 {
-  0% {
-    bottom: 1.33333333rem;
-  }
-  50% {
-    bottom: 2rem;
-  }
-  100% {
-    bottom: 1.33333333rem;
-  }
+  
 }
 @keyframes s17 {
   from {
@@ -595,14 +491,63 @@
   }
 }
 @keyframes s17-17 {
+  
+}
+@keyframes s18 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes s18-18 {
   0% {
-    bottom: 0.26666667rem;
+    top: 5.33333333rem;
   }
   50% {
-    bottom: 0.93333333rem;
+    top: 5.06666667rem;
   }
   100% {
-    bottom: 0.26666667rem;
+    top: 5.33333333rem;
+  }
+}
+@keyframes s19 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes s19-19 {
+  0% {
+    top: 9.33333333rem;
+  }
+  50% {
+    top: 8.8rem;
+  }
+  100% {
+    top: 9.33333333rem;
+  }
+}
+@keyframes s20 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes s20-20 {
+  0% {
+    top: 0.26666667rem;
+  }
+  50% {
+    top: 0.13333333rem;
+  }
+  100% {
+    top: 0.26666667rem;
   }
 }
 .box {
@@ -1012,6 +957,42 @@
   display: block;
   width: 100%;
 }
+.box .box-pics li .suipian16 {
+  opacity: 0;
+  display: block;
+  width: 0.8rem;
+  position: absolute;
+  top: 5.33333333rem;
+  left: 0.26666667rem;
+}
+.box .box-pics li .suipian16 img {
+  display: block;
+  width: 100%;
+}
+.box .box-pics li .suipian17 {
+  opacity: 0;
+  display: block;
+  width: 0.8rem;
+  position: absolute;
+  top: 9.33333333rem;
+  left: 0.66666667rem;
+}
+.box .box-pics li .suipian17 img {
+  display: block;
+  width: 100%;
+}
+.box .box-pics li .suipian18 {
+  opacity: 0;
+  display: block;
+  width: 1.06666667rem;
+  position: absolute;
+  top: 0.26666667rem;
+  right: 5.33333333rem;
+}
+.box .box-pics li .suipian18 img {
+  display: block;
+  width: 100%;
+}
 .box .box-pics li .video-play-btn {
   display: block;
   width: 1.33333333rem;
@@ -1087,6 +1068,16 @@
   -webkit-animation-iteration-count: 1, infinite;
   -webkit-animation-fill-mode: forwards, none;
 }
+.box .box-pics li:nth-of-type(11).started .suipian16 {
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -webkit-animation-name: s18, s18-18;
+  -webkit-animation-duration: 2s, 4s;
+  -webkit-animation-timing-function: ease, ease;
+  -webkit-animation-delay: 0s, 1s;
+  -webkit-animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards, none;
+}
 .box .box-pics li:nth-of-type(13) .video-box {
   top: 3.86666667rem;
   left: 1.37333333rem;
@@ -1109,6 +1100,16 @@
   -webkit-transition-property: -webkit-transform;
   -moz-transition-property: -moz-transform;
   -webkit-animation-name: s15, s15-15;
+  -webkit-animation-duration: 2s, 4s;
+  -webkit-animation-timing-function: ease, ease;
+  -webkit-animation-delay: 0s, 1s;
+  -webkit-animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards, none;
+}
+.box .box-pics li:nth-of-type(16).started .suipian17 {
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -webkit-animation-name: s19, s19-19;
   -webkit-animation-duration: 2s, 4s;
   -webkit-animation-timing-function: ease, ease;
   -webkit-animation-delay: 0s, 1s;
@@ -1160,6 +1161,16 @@
   -moz-transition-property: -moz-transform;
   -webkit-animation-name: s14, s14-14;
   -webkit-animation-duration: 2s, 4s;
+  -webkit-animation-timing-function: ease, ease;
+  -webkit-animation-delay: 0s, 1s;
+  -webkit-animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards, none;
+}
+.box .box-pics li:nth-of-type(24).started .suipian18 {
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -webkit-animation-name: s20, s20-20;
+  -webkit-animation-duration: 2s, 2s;
   -webkit-animation-timing-function: ease, ease;
   -webkit-animation-delay: 0s, 1s;
   -webkit-animation-iteration-count: 1, infinite;

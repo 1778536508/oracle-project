@@ -1154,15 +1154,15 @@
   left: 4.26666667rem;
 }
 .box .box-pics li:nth-of-type(23) .video-box.active {
-  width: 7.53333333rem;
-  height: 4.26666667rem;
+  width: 7.2rem;
+  height: 4rem;
   top: auto;
-  bottom: 2.53333333rem;
-  left: 1.2rem;
+  bottom: 1.53333333rem;
+  left: 1.4rem;
 }
 .box .box-pics li:nth-of-type(23) .video-play-btn.active {
   top: auto;
-  bottom: 4rem;
+  bottom: 2.97333333rem;
   left: 4.26666667rem;
 }
 .box .box-pics li:nth-of-type(23).started .suipian12 {
